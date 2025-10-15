@@ -1,0 +1,167 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f4faf9; 
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+#wrapper {
+  width: 90%;
+  max-width: 1100px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+}
+
+header {
+  background-color: #6ab7a8; 
+  color: white;
+  padding: 25px;
+  text-align: center;
+  border-bottom: 5px solid #6ab7a8;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+#tagline {
+  font-style: italic;
+  font-size: 1.1em;
+  color: #e0f7f3;
+  margin-top: 8px;
+}
+
+nav {
+  float: right;
+  width: 25%;
+  background-color: #e7f7f4;
+  padding: 20px;
+  box-sizing: border-box;
+  border-left: 3px solid #a0d9cc;
+}
+
+nav p {
+  font-weight: bold;
+  color: #004d40;
+  margin-top: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #00695c;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #b2dfdb;
+  padding: 6px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #09bb9d;
+  color: white;
+}
+
+nav a:visited {
+  color: #009607;
+}
+
+main {
+  float: left;
+  width: 70%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+section, article {
+  margin-bottom: 25px;
+  background-color: #fafafa;
+  padding: 15px 20px;
+  border-left: 5px solid #fd5af5;
+  border-radius: 8px;
+}
+
+section img, article img {
+  display: block;
+  margin: 15px auto;
+  border-radius: 10px;
+  max-width: 100%;
+  border: 2px solid #b2dfdb;
+}
+
+section h2, article h2 {
+  color: #ff1dec;
+  margin-top: 0;
+  border-bottom: 2px solid #00e699;
+  padding-bottom: 5px;
+}
+
+.citation {
+  font-size: 0.9em;
+  text-align: right;
+  color: #666;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+aside {
+  clear: both;
+  background-color: #e0f2f1;
+  padding: 15px;
+  border-top: 4px solid #80cbc4;
+  margin-top: 30px;
+  font-size: 0.95em;
+}
+
+aside p {
+  font-weight: bold;
+  color: #004d40;
+}
+
+footer {
+  text-align: center;
+  background-color: #1dbea4;
+  color: white;
+  padding: 15px;
+  border-top: 5px solid #0eb19e;
+  font-style: italic;
+}
+
+@media (max-width: 900px) {
+  nav, main {
+    float: none;
+    width: 100%;
+  }
+
+  nav {
+    border-left: none;
+    border-top: 3px solid #80cbc4;
+  }
+
+  header h1 {
+    font-size: 1.6em;
+  }
+}
